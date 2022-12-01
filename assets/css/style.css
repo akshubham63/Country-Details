@@ -1,0 +1,41 @@
+.card{
+	width:100%;
+	height:470px;
+	margin-bottom:1rem;
+	padding:10px 0;
+}
+
+.flag-img{
+	border:2px solid #ededed;
+}
+
+.flag-img img{
+	width:100%;
+}
+
+.cName{
+	color:orange;
+	text-transform:uppercase;
+	font-size:24px;
+	text-align:center;
+}
+
+.details{
+	text-transform:capitalize;
+	font-size:18px;
+	color:#747474;
+}
+
+.details p{
+	margin-bottom:5px;
+}
+
+.countryCard .card{
+	transition: all 1s ease-in-out;
+}
+
+.countryCard .card:hover,
+.countryCard .card:focus,
+.countryCard .card:active{
+	transform:scale(1.05) translateY(-5px);
+}
